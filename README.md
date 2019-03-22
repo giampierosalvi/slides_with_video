@@ -9,7 +9,7 @@ The resulting PDF file is included in the repository to allow testing without a 
 ## Expected behaviour
 Both in normal and presentation mode, the video should
 * play when clicking
-* stop when changing slide and the video frame should disappear
+* when changing slide the video should stop playing and the video frame should disappear
 
 ## Evince (version 3.28.4 on Ubuntu 18.04)
 In normal mode:
