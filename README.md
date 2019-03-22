@@ -17,3 +17,6 @@ In normal mode:
 
 In presentation mode:
 * the video does not play at all
+
+## Okular (version 1.3.3 on Ubuntu 18.04)
+Works as expected. It does not play the video in normal mode, but I suspect this is intended behaviour. Also it tends to crash with real presentations, but I have not been able to reporduce the crashes with this simple file.
