@@ -1,5 +1,5 @@
 # slides_with_video
-Example of slides with video to test PDF viewers such as okular and evince
+Example of slides with video to test PDF viewers such as okular and evince. See also Bug [#1821298](https://bugs.launchpad.net/ubuntu/+source/evince/+bug/1821298) on Launchpad.
 
 ## Compile with:
 ```pdflatex slides_with_video```
