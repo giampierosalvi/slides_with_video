@@ -1,0 +1,65 @@
+\documentclass[xcolor=table,12pt]{beamer}
+
+\title{Example Slides with Video}
+\author{Giampiero Salvi}
+\usepackage{multimedia}
+\usepackage{graphicx}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Motivation}
+  \begin{itemize}
+  \item this presentation was created to test the multimedia capabilities of PDF viewers
+  \item it uses the beamer class with the multimedia package
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Usage}
+  you should:
+  \begin{itemize}
+  \item move to the slide with video content
+  \item start the video
+  \item then move to next or previous slide while the video is playing
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Expected vs Problematic behaviour}
+  Expected:
+  \begin{itemize}
+  \item when changing slides the video should stop
+  \item \dots and the video frame should disappear
+  \end{itemize}
+
+  Evince behaviour:
+  \begin{itemize}
+  \item the video continues playing
+  \item and the video frame covers all slide content
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Here is the video content}
+  \begin{center}
+    \movie[showcontrols=true,height=0.6\textwidth]{\includegraphics[width=\textwidth]{example_video720x480.png}}{example_video720x480.mp4}
+  \end{center}
+\end{frame}
+
+\begin{frame}{First extra slide for testing}
+  \begin{itemize}
+  \item this content is probably not visible
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Second extra slide for testing}
+  \begin{itemize}
+  \item this content is probably not visible
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Third extra slide for testing}
+  \begin{itemize}
+  \item this content is probably not visible
+  \end{itemize}
+\end{frame}
+
+\end{document}
