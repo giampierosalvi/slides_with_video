@@ -11,7 +11,7 @@ Both in normal and presentation mode, the video should
 * play when clicking
 * stop when changing slide and the video frame should disappear
 
-## Evince
+## Evince (version 3.28.4 on Ubuntu 18.04)
 In normal mode:
 * the video contines playing and the video frame covers the content of the next slides
 In presentation mode:
