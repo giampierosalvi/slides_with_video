@@ -14,6 +14,7 @@ Both in normal and presentation mode, the video should
 ## Evince (version 3.28.4 on Ubuntu 18.04)
 In normal mode:
 * the video contines playing and the video frame covers the content of the next slides
+* even if the video is stopped manually, the video frame does not disappear when changing slides
 
 In presentation mode:
 * the video does not play at all
